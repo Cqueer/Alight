@@ -9,9 +9,9 @@ var AipSpeechServer=require('baidu-aip-sdk').speech;
 
 
 //设置appid/appkey/appsecret
-var APP_ID = "14823408";
-var API_KEY = "8DC3DiBAdfL89cOmnpdcrbvT";
-var SECRET_KEY = "uD5B0132Pv1LgS2WxARSotKy2rk4Ny8o";
+var APP_ID = "xxxxxxxx";
+var API_KEY = "xxxxxxxxxxxxxxxxx";
+var SECRET_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 // 新建一个对象，建议只保存一个对象调用服务接口
 var client =new AipSpeechServer(APP_ID, API_KEY, SECRET_KEY);
